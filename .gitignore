@@ -1,0 +1,18 @@
+# Environment
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Data — fetch with scripts/fetch_data.py, don't commit
+data/raw/
+data/processed/
+data/graph/
+
+# Local artifacts (vector indexes, dbs, run outputs)
+*.faiss
+*.index
+*.duckdb
+*.sqlite
+runs/
